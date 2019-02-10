@@ -36,3 +36,28 @@ body {
   color: rgb(35,2,63);
   cursor: pointer;
 }
+
+.attributes {
+  background-color: rgb(104,0,255);
+  color: rgb(255,255,255);
+  font-weight: 500;
+}
+
+.track {
+  display: flex;
+  padding: .6rem;
+  border-bottom: 1px solid rgb(204,204,204);
+  line-height: 1;
+}
+
+.track div {
+  display: flex;
+  align-items: center;
+}
+
+.play-button a {
+  display: flex;
+  align-items: center;
+  color: rgb(255,0,171);
+  text-decoration: none;
+}
